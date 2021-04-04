@@ -8,7 +8,7 @@ SecureDrop is a system that lets people share sensitive information
 with investigative journalists anonymously and securely.
 Learn :ref:`more about SecureDrop <what_is_securedrop>`.
 
-SecureDrop is written in English and translated in multiple
+SecureDrop is written in English and translated into multiple
 other languages. Translations are managed using **Weblate**,
 a web platform that enables collaborative translation projects.
 
@@ -20,7 +20,7 @@ Get started using Weblate
 You can choose to :ref:`register on Weblate <how_to_register_on_weblate_email>`
 with your email address, or by linking a GitHub account.
 
-You can contribute to any language, but Weblate has some conveniences
+You can contribute to any language, and Weblate has some conveniences
 to make it easier to work with your preferred languages.
 Learn :ref:`how to choose your preferred languages on Weblate <how_to_manage_your_preferred_languages_weblate>`.
 
@@ -70,9 +70,9 @@ with investigative journalists anonymously and securely. It's designed
 to protect its users with strong cryptography and network
 communications that hide locations and activity. For more information:
 
-* Learn about :doc:`what makes SecureDrop unique <../what_makes_securedrop_unique>`..
-* Watch `The Globe and Mail guide to using SecureDrop <https://www.youtube.com/watch?v=oSW2wMWtAMM>`_.
-* Read the `Localization Lab "Ask Me Anything" on SecureDrop <https://www.localizationlab.org/blog/2018/4/20/4bp1j2olispup45z8o2mm5nb5snxm2>`_.
+* Learn about :doc:`what makes SecureDrop unique <../what_makes_securedrop_unique>`
+* Watch `The Globe and Mail guide to using SecureDrop <https://www.youtube.com/watch?v=oSW2wMWtAMM>`_
+* Read the `Localization Lab "Ask Me Anything" on SecureDrop <https://www.localizationlab.org/blog/2018/4/20/4bp1j2olispup45z8o2mm5nb5snxm2>`_
 
 .. _who_uses_securedrop:
 
@@ -122,7 +122,7 @@ How to register an account on Weblate using a GitHub account
 
 #. Visit the `Weblate registration page`_.
 #. Click on the GitHub icon, under **Third party registration**.
-#. Log into GitHub unless you already are.
+#. Log into GitHub if necessary.
 #. Click the green **Authorize freedomofpress** button.
 
 The authorization request looks like this:
@@ -173,11 +173,11 @@ How to translate a language on Weblate
 How to suggest changes to a source string
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you notice errors in our :ref:`source strings <weblate_glossary_source_string>`, or catch us using English
-idioms that are hard to translate, please add comments letting us
-know. At the beginning of every translation cycle in our release
-schedule, we have a few days for incorporating your feedback, and very
-much appreciate it.
+If you notice errors in our :ref:`source strings <weblate_glossary_source_string>`,
+or catch us using English idioms that are hard to translate,
+please add comments letting us know. We appreciate your feedback very much
+and our release schedule includes a few days at the beginning
+of every translation cycle for incorporating it.
 
 .. _how_to_translate_a_phrase_weblate:
 
@@ -210,11 +210,11 @@ How to change an existing translation
 
 If you think a translation can be improved, please don't run roughshod
 over another translator's work. Make a suggestion or comment first, to
-allow discussion before saving your changes.
+allow for discussion before saving your changes.
 
 Exceptions to this policy would be:
 
-- Obvious errors in spelling, grammar, or punctuation.
+- Obvious errors in spelling, grammar, or punctuation
 
 - A string in our interface that is supposed to match another
   project. For example, we include instructions for adjusting Tor
@@ -365,9 +365,9 @@ to improving your own language glossary on Weblate by suggesting
 a translation yourself!
 
 - The :doc:`SecureDrop glossary <../glossary>` explains terms specific
-  to SecureDrop.
+  to SecureDrop
 - The `EFF Surveillance Self-Defense glossary`_ explains many general
-  security concepts.
+  security concepts
 
 Additionally, here is a list of terms that are specific to the usage of Weblate for SecureDrop.
 
