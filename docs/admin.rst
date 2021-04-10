@@ -819,5 +819,3 @@ impact of re-rerunning ``./securedrop-admin install`` more than once. The
 command will simply check which tasks have been completed, and pick up where it
 left off. However, if the same issue persists, you will need to investigate
 further.
-
-.. |System Config Page| image:: images/manual/screenshots/journalist-admin_system_config_page.png
