@@ -137,7 +137,12 @@ passphrase, and two-factor authentication token to log in.
 
 By default, you will be logged in to the *Journalist Interface*'s source list page:
 
-|SecureDrop main page|
+.. figure:: images/manual/screenshots/journalist-admin_index_no_documents.png
+   :align: center
+   :figwidth: 80%
+   :width: 100%
+
+   Journalist Interface's source list page. Click on the image to see it full-size.
 
 In the course of normal administration operations you should not need to view source
 communications, but if you do, you can find information on managing submissions in
@@ -175,11 +180,21 @@ account setup.
 
 * First, click **Admin** in the top right corner of the page to load the *Admin Interface*:
 
-  |SecureDrop admin home|
+.. figure:: images/manual/screenshots/journalist-admin_interface_index.png
+   :align: center
+   :figwidth: 80%
+   :width: 100%
+
+   Admin interface. Click on the image to see it full-size.
 
 *  Once there, click **Add User** to add a new user:
 
-|Add a new user|
+.. figure:: images/manual/screenshots/journalist-admin_add_user_totp.png
+   :align: center
+   :figwidth: 80%
+   :width: 100%
+
+   User account creation screen, as seen by an admin. Click on the image to see it full-size.
 
 * Next, hand the keyboard over to the journalist so they can
   create their own username.
@@ -203,7 +218,12 @@ FreeOTP
 * If the journalist is using FreeOTP or another app for two-factor authentication,
   click **Add User** to proceed to the next page.
 
-|Enable FreeOTP|
+.. figure:: images/manual/screenshots/journalist-admin_new_user_two_factor_totp.png
+   :align: center
+   :figwidth: 80%
+   :width: 100%
+
+   FreeOTP enablement screen, as seen by an admin. Click on the image to see it full-size.
 
 * Next, the journalist should open FreeOTP on their smartphone and scan the barcode
   displayed on the screen.
@@ -230,13 +250,23 @@ YubiKey
   OATH-HOTP Secret Key. For more information on how to retrieve this key, read
   the :doc:`YubiKey Setup Guide <yubikey_setup>`.
 
-|Enable YubiKey|
+.. figure:: images/manual/screenshots/journalist-admin_add_user_hotp.png
+   :align: center
+   :figwidth: 80%
+   :width: 100%
+
+   User account creation screen with YubiKey OATH-HOTP Secret Key, as seen by an admin. Click on the image to see it full-size.
 
 * Once you've entered the Yubikey's OATH-HOTP Secret Key, click **Add User**.
   On the next page, have the journalist authenticate using their YubiKey, by
   inserting it into a USB port on the workstation and pressing its button.
 
-|Verify YubiKey|
+.. figure:: images/manual/screenshots/journalist-admin_new_user_two_factor_hotp.png
+   :align: center
+   :figwidth: 80%
+   :width: 100%
+
+   YubiKey OATH-HOTP enablement screen, as seen by an admin. Click on the image to see it full-size.
 
 * If everything was set up correctly, you will be redirected back to the
   *Admin Interface*, where you should see a flashed message that says "The
@@ -285,7 +315,12 @@ for their account:
 * Follow the on-screen instructions to complete the process and verify their new
   two-factor authentication credentials.
 
-|Reset Passphrase|
+.. figure:: images/manual/screenshots/journalist-edit_account_user.png
+   :align: center
+   :figwidth: 80%
+   :width: 100%
+
+   User account edition form, as seen by an admin. Click on the image to see it full-size.
 
 Off-boarding Users
 ^^^^^^^^^^^^^^^^^^
@@ -323,7 +358,12 @@ PNG-format images are supported. To update the logo image:
 
 You should see a message appear indicating the change was a success:
 
-|Logo Update|
+.. figure:: images/manual/screenshots/journalist-admin_changes_logo_image.png
+   :align: center
+   :figwidth: 80%
+   :width: 100%
+
+   Instance configuration screen after a successful logo update, as seen by an admin. Click on the image to see it full-size.
 
 .. _submission prefs:
 
@@ -347,7 +387,12 @@ Testing OSSEC Alerts
 To verify that the OSSEC monitoring sysstem's functionality, you can send a test
 OSSEC alert by clicking **Send Test OSSEC Alert**:
 
-          |Test Alert|
+.. figure:: images/manual/screenshots/journalist-admin_ossec_alert_button.png
+   :align: center
+   :figwidth: 80%
+   :width: 100%
+
+   Instance configuration screen after sending an OSSEC test alert, as seen by an admin. Click on the image to see it full-size.
 
 You should receive an OSSEC alert email at the address specified during the
 installation of SecureDrop. The email may take several minutes to arrive. If
@@ -775,13 +820,4 @@ command will simply check which tasks have been completed, and pick up where it
 left off. However, if the same issue persists, you will need to investigate
 further.
 
-.. |Reset Passphrase| image:: images/manual/screenshots/journalist-edit_account_user.png
-.. |Test Alert| image:: images/manual/screenshots/journalist-admin_ossec_alert_button.png
-.. |SecureDrop main page| image:: images/manual/screenshots/journalist-admin_index_no_documents.png
-.. |SecureDrop admin home| image:: images/manual/screenshots/journalist-admin_interface_index.png
-.. |Add a new user| image:: images/manual/screenshots/journalist-admin_add_user_totp.png
-.. |Enable FreeOTP| image:: images/manual/screenshots/journalist-admin_new_user_two_factor_totp.png
-.. |Enable YubiKey| image:: images/manual/screenshots/journalist-admin_add_user_hotp.png
-.. |Verify YubiKey| image:: images/manual/screenshots/journalist-admin_new_user_two_factor_hotp.png
 .. |System Config Page| image:: images/manual/screenshots/journalist-admin_system_config_page.png
-.. |Logo Update| image:: images/manual/screenshots/journalist-admin_changes_logo_image.png
