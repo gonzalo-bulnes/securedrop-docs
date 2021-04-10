@@ -172,7 +172,7 @@ After logging in, you can add new user accounts for the journalists at your orga
 who will be checking the system for submissions. Make sure the journalist is
 physically in the same room as you when you do this, as they will have to be present
 to enable two-factor authentication. SecureDrop supports the use of either a
-smartphone authenticator app or a Yubikey for two-factor authentication. If an
+smartphone authenticator app or a YubiKey for two-factor authentication. If an
 app is to be used, the journalist should install it before proceeding with the
 account setup.
 
@@ -204,7 +204,7 @@ account setup.
     have been deleted from the system.
 
 * Once they’re done entering a username for themselves, have them save their
-  pre-generated diceware passphrase to their password manager.
+  pre-generated Diceware passphrase to their password manager.
 
 * If the new account should also have admin privileges, allowing them to add or
   delete other journalist accounts, select **Is Admin**.
@@ -257,7 +257,7 @@ YubiKey
 
    User account creation screen with YubiKey OATH-HOTP Secret Key, as seen by an admin. Click on the image to see it full-size.
 
-* Once you've entered the Yubikey's OATH-HOTP Secret Key, click **Add User**.
+* Once you've entered the YubiKey's OATH-HOTP Secret Key, click **Add User**.
   On the next page, have the journalist authenticate using their YubiKey, by
   inserting it into a USB port on the workstation and pressing its button.
 
@@ -310,7 +310,7 @@ for their account:
   * Click **Reset Mobile App Credentials** for accounts using FreeOTP or a similar
     authentication app.
 
-  * Click **Reset Security Key Credentials** for accounts using a Yubikey.
+  * Click **Reset Security Key Credentials** for accounts using a YubiKey.
 
 * Follow the on-screen instructions to complete the process and verify their new
   two-factor authentication credentials.
@@ -373,7 +373,7 @@ Setting Submission Preferences
 By default, SecureDrop supports both text submissions and document uploads. If you
 only want to receive text messages, you can disable uploads as follows:
 
-* check the the **Prevent sources from uploading documents** checkbox
+* check the **Prevent sources from uploading documents** checkbox
 * click **Update Submission Preferences**
 
 This change will be applied immediately on the *Source Interface*. Documents that
@@ -384,7 +384,7 @@ were previously uploaded will still be available via the **Journalist Interface*
 Testing OSSEC Alerts
 ^^^^^^^^^^^^^^^^^^^^
 
-To verify that the OSSEC monitoring sysstem's functionality, you can send a test
+To verify that the OSSEC monitoring system's functionality, you can send a test
 OSSEC alert by clicking **Send Test OSSEC Alert**:
 
 .. figure:: images/manual/screenshots/journalist-admin_ossec_alert_button.png
@@ -712,8 +712,8 @@ revert the server configuration to an older version.
 
 The simplest approach to keeping workstations in sync is to inform other admins
 of changes as you make them, for example via a secure Signal group chat. Any such
-communications should happen over a platform that provides E2EE, as you may need to
-share sensitive information.
+communications should happen over a platform that provides end-to-end encryption,
+as you may need to share sensitive information.
 
 Configuration information is stored in several files on the *Admin Workstation* under
 ``~/Persistent/securedrop/``:
