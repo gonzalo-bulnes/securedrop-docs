@@ -139,6 +139,7 @@ By default, you will be logged in to the *Journalist Interface*'s source list pa
 
 .. figure:: images/manual/screenshots/journalist-admin_index_no_documents.png
    :align: center
+   :alt: SecureDrop main page
    :figwidth: 80%
    :width: 100%
 
@@ -182,6 +183,7 @@ account setup.
 
 .. figure:: images/manual/screenshots/journalist-admin_interface_index.png
    :align: center
+   :alt: SecureDrop admin home
    :figwidth: 80%
    :width: 100%
 
@@ -191,6 +193,7 @@ account setup.
 
 .. figure:: images/manual/screenshots/journalist-admin_add_user_totp.png
    :align: center
+   :alt: Add a new user
    :figwidth: 80%
    :width: 100%
 
@@ -220,6 +223,7 @@ FreeOTP
 
 .. figure:: images/manual/screenshots/journalist-admin_new_user_two_factor_totp.png
    :align: center
+   :alt: Enable FreeOTP
    :figwidth: 80%
    :width: 100%
 
@@ -252,6 +256,7 @@ YubiKey
 
 .. figure:: images/manual/screenshots/journalist-admin_add_user_hotp.png
    :align: center
+   :alt: Enable Yubikey
    :figwidth: 80%
    :width: 100%
 
@@ -263,6 +268,7 @@ YubiKey
 
 .. figure:: images/manual/screenshots/journalist-admin_new_user_two_factor_hotp.png
    :align: center
+   :alt: Verify Yubikey
    :figwidth: 80%
    :width: 100%
 
@@ -317,6 +323,7 @@ for their account:
 
 .. figure:: images/manual/screenshots/journalist-edit_account_user.png
    :align: center
+   :alt: Reset Passphrase
    :figwidth: 80%
    :width: 100%
 
@@ -360,6 +367,7 @@ You should see a message appear indicating the change was a success:
 
 .. figure:: images/manual/screenshots/journalist-admin_changes_logo_image.png
    :align: center
+   :alt: Logo Update
    :figwidth: 80%
    :width: 100%
 
@@ -389,6 +397,7 @@ OSSEC alert by clicking **Send Test OSSEC Alert**:
 
 .. figure:: images/manual/screenshots/journalist-admin_ossec_alert_button.png
    :align: center
+   :alt: Test Alert
    :figwidth: 80%
    :width: 100%
 
