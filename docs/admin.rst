@@ -139,11 +139,9 @@ By default, you will be logged in to the *Journalist Interface*'s source list pa
 
 .. figure:: images/manual/screenshots/journalist-admin_index_no_documents.png
    :align: center
-   :alt: SecureDrop main page
+   :alt: The top navigation of the Journalist Interface says 'Logged on as Journalist' and displays an 'Admin' link.
    :figwidth: 80%
    :width: 100%
-
-   Journalist Interface's source list page. Click on the image to see it full-size.
 
 In the course of normal administration operations you should not need to view source
 communications, but if you do, you can find information on managing submissions in
@@ -183,21 +181,17 @@ account setup.
 
 .. figure:: images/manual/screenshots/journalist-admin_interface_index.png
    :align: center
-   :alt: SecureDrop admin home
+   :alt: The Admin Interface displays an 'Add User' button.
    :figwidth: 80%
    :width: 100%
-
-   Admin interface. Click on the image to see it full-size.
 
 *  Once there, click **Add User** to add a new user:
 
 .. figure:: images/manual/screenshots/journalist-admin_add_user_totp.png
    :align: center
-   :alt: Add a new user
+   :alt: The form used to create new users displays a pre-generated Diceware passphrase.
    :figwidth: 80%
    :width: 100%
-
-   User account creation screen, as seen by an admin. Click on the image to see it full-size.
 
 * Next, hand the keyboard over to the journalist so they can
   create their own username.
@@ -223,11 +217,11 @@ FreeOTP
 
 .. figure:: images/manual/screenshots/journalist-admin_new_user_two_factor_totp.png
    :align: center
-   :alt: Enable FreeOTP
+   :alt: The form used to enable FreeOTP displays a barcode and a two-factor secret.
    :figwidth: 80%
    :width: 100%
 
-   FreeOTP enablement screen, as seen by an admin. Click on the image to see it full-size.
+   Click on the image to see it full-size.
 
 * Next, the journalist should open FreeOTP on their smartphone and scan the barcode
   displayed on the screen.
@@ -256,11 +250,9 @@ YubiKey
 
 .. figure:: images/manual/screenshots/journalist-admin_add_user_hotp.png
    :align: center
-   :alt: Enable Yubikey
+   :alt: The form used to create new users, filled with the 40-character HOTP secret key of a Yubikey.
    :figwidth: 80%
    :width: 100%
-
-   User account creation screen with YubiKey OATH-HOTP Secret Key, as seen by an admin. Click on the image to see it full-size.
 
 * Once you've entered the YubiKey's OATH-HOTP Secret Key, click **Add User**.
   On the next page, have the journalist authenticate using their YubiKey, by
@@ -268,11 +260,9 @@ YubiKey
 
 .. figure:: images/manual/screenshots/journalist-admin_new_user_two_factor_hotp.png
    :align: center
-   :alt: Verify Yubikey
+   :alt: The form used to verify the setup of the Yubikey requests a 6-digit verification code.
    :figwidth: 80%
    :width: 100%
-
-   YubiKey OATH-HOTP enablement screen, as seen by an admin. Click on the image to see it full-size.
 
 * If everything was set up correctly, you will be redirected back to the
   *Admin Interface*, where you should see a flashed message that says "The
@@ -323,11 +313,11 @@ for their account:
 
 .. figure:: images/manual/screenshots/journalist-edit_account_user.png
    :align: center
-   :alt: Reset Passphrase
+   :alt: The account edition form allows change name, reset password, and reset two-factor authentication.
    :figwidth: 80%
    :width: 100%
 
-   User account edition form, as seen by an admin. Click on the image to see it full-size.
+   Click on the image to see it full-size.
 
 Off-boarding Users
 ^^^^^^^^^^^^^^^^^^
@@ -367,11 +357,11 @@ You should see a message appear indicating the change was a success:
 
 .. figure:: images/manual/screenshots/journalist-admin_changes_logo_image.png
    :align: center
-   :alt: Logo Update
+   :alt: The Instance Configuration form displays 'Image updated' after the logo was updated successfully.
    :figwidth: 80%
    :width: 100%
 
-   Instance configuration screen after a successful logo update, as seen by an admin. Click on the image to see it full-size.
+   Click on the image to see it full-size.
 
 .. _submission prefs:
 
@@ -397,11 +387,11 @@ OSSEC alert by clicking **Send Test OSSEC Alert**:
 
 .. figure:: images/manual/screenshots/journalist-admin_ossec_alert_button.png
    :align: center
-   :alt: Test Alert
+   :alt: The Instance Configuration form displays 'Test alert sent' after a test OSSEC alert was sent successfully.
    :figwidth: 80%
    :width: 100%
 
-   Instance configuration screen after sending an OSSEC test alert, as seen by an admin. Click on the image to see it full-size.
+   Click on the image to see it full-size.
 
 You should receive an OSSEC alert email at the address specified during the
 installation of SecureDrop. The email may take several minutes to arrive. If
